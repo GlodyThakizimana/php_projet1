@@ -1,0 +1,70 @@
+/*usersphp*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+
+}
+
+th,
+td {
+    border: 2px solid black;
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.entete {
+    color: wheat;
+    font-family: fantasy;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: monospace;
+    margin: 15px;
+}
+
+/*index html */
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #8DA0AB;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #E8C0B3;
+    white-space: 60px;
+    color: #4A5666;
+    border-radius: 5px;
+}
+
+.liste {
+    text-decoration: none;
+}
