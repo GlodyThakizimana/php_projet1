@@ -68,3 +68,8 @@ a {
 .liste {
     text-decoration: none;
 }
+footer{
+    position:static;
+    bottom:0;
+
+}

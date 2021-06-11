@@ -1,7 +1,5 @@
 <?php
 
-echo "Ici mon footer";
-echo "Ici mon footer";
-echo "Ici mon footer";
-echo "Ici mon footer";
-echo "br";
+$name = 'footer';
+
+echo '<footer> $name </footer>';
