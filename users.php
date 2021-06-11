@@ -26,21 +26,15 @@ $users = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="users.css" />
+    <link rel="stylesheet" href="CSS/users.css" />
     <title>Utilisateurs</title>
 </head>
 
 <body>
 
 
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="/users.php">Utilisateur</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php require'Templates/header.html'?>
+
     <h1>La liste des utilisateurs</h1>
     <table class="tableau">
         <tr class="entete">
@@ -56,11 +50,9 @@ $users = [
             </tr>
         <?php endforeach ?>
     </table>
-
-
 </body>
 <?php
-include('footer.php');
+require('Templates/footer.html');
 ?>
 
 </html>

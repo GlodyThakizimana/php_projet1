@@ -69,7 +69,34 @@ a {
     text-decoration: none;
 }
 footer{
-    position:static;
-    bottom:0;
-
+    position: fixed;
+    height: 50px;
+    background-color: #8DA0AB;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bloc1{
+    display: flex;
+    
+}
+.bloc2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.miniBloc{
+    background-color: #F6DAC6;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
 }
