@@ -64,7 +64,7 @@
         </div>
         <div class="row  mb-2">
             <div class="col"></div>
-            <button type="submit" class="col-3 btn btn-primary">Valider</button>
+            <button type="submit" class="col-1 btn btn-primary">Valider</button>
             <div class="col"></div>
         </div>
     </form>
