@@ -12,11 +12,12 @@
 <body>
 
 <?php require'Templates/header.html'?>
-    <div>
-        <h1 class="accueil">Accueil</h1>
-    </div>
+    
 
     <div class="container">
+        <div class="row d-flex justify-content-around">
+            <h1 class="accueil">Accueil</h1>
+        </div>
         <div class="bloc1">
             <div class="miniBloc"></div>
             <div class="miniBloc"></div>
