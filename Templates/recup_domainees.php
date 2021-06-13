@@ -10,8 +10,9 @@
     <h1>Affichage des données issus du formulire</h1>
     <ul>
         <li><?php echo $_POST['user_name']; ?></li>
-        <li><?php echo $_POST['tentacles']; ?></li>
-        <li><?php echo $_POST['sexe']; ?></li>
+        <li><?php echo $_POST['user_last']; ?></li>
+        <li><?php echo $_POST['age']; ?></li>
+        <li><?php echo $_POST['flexRadioDefault']; ?></li>
         <li><?php echo $_POST['password']; ?></li>
     </ul>
 </body>

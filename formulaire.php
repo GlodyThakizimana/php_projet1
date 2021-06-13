@@ -13,29 +13,32 @@
 
 <body>
     <?php require 'Templates/header.html' ?>
-
-    
-
-    <form action="Templates/recup_domainees.php" method="post" >
-        <div id="container" >
-            <div class="row">
+    <form action="Templates/recup_domainees.php" method="post">
+        <div id="container">
+            <div class="row mb-2">
                 <div class="col"></div>
-                    <legend class="col">Inscription</legend>
+                <legend class="col ">Inscription</legend>
                 <div class="col"></div>
             </div>
-            <div class="nom row">
+            <div class="nom row  mb-2">
                 <div class="col"></div>
-                <label for="nam" class="col-2">Nom et prénom</label>
+                <label for="nam" class="col-2">Votre prénom</label>
                 <input type="text" class="col-3" id="name" name="user_name">
                 <div class="col"></div>
             </div>
-            <div class="age row">
+            <div class="nom row  mb-2">
+                <div class="col"></div>
+                <label for="nam" class="col-2">Votre prénom</label>
+                <input type="text" class="col-3" id="name" name="user_last">
+                <div class="col"></div>
+            </div>
+            <div class="age row  mb-2">
                 <div class="col"></div>
                 <label for="tentacles" class="col-2">Age</label>
-                <input type="number" class="col-3" id="tentacles" name="tentacles" min="18" max="100">
-                <div class="col"></div>            
+                <input type="number" class="col-3" id="tentacles" name="age" min="18" max="100">
+                <div class="col"></div>
             </div>
-            <div class="row">
+            <div class="row  mb-2">
                 <div class="col"></div>
                 <div class="col-1"></div>
                 <div class="form-check col-3">
@@ -52,19 +55,20 @@
                 </div>
                 <div class="col"></div>
             </div>
-            <div class="password row ">
+            <div class="password row  mb-2">
                 <div class="col"></div>
                 <label for="pass" class="col-2">Entrée votre mot de passe (8 caractaire minimume):</label>
                 <input class="col-3" type="password" id="pass" name="password" minlength="8" required>
                 <div class="col"></div>
             </div>
         </div>
-        <div class="row">
+        <div class="row  mb-2">
             <div class="col"></div>
             <button type="submit" class="col-3 btn btn-primary">Valider</button>
             <div class="col"></div>
         </div>
     </form>
+
     </div>
     <?php
     require('Templates/footer.html');
