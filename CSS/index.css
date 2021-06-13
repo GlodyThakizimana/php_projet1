@@ -7,7 +7,7 @@ body {
     height: 100vh;
 }
 
-.navbar ul {
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -16,6 +16,15 @@ body {
     background-color: #8DA0AB;
     border-radius: 10px;
     list-style-type: none;
+}
+
+.btn-primary {
+    background-color: #F6DAC6;
+    border-color: #f6dac6;
+}
+.btn-primary:hover {
+    background-color: #f8b382;
+    border-color: #f8b382;
 }
 
 
