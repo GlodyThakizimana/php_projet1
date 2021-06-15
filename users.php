@@ -1,5 +1,4 @@
 <?php
-
 $users = [
     [
         'name' => 'Elodie',
@@ -35,7 +34,7 @@ $users = [
 <body>
 
 
-    <?php require'Templates/header.html'?>
+    <?php require'Templates/header.php'?>
 
     <h1>La liste des utilisateurs</h1>
     <table class="tableau">
