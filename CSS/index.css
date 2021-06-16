@@ -8,9 +8,9 @@ body {
 }
 .banner,
 .order-form {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/jombo.png') center center fixed no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/pizza.jpg') center center fixed no-repeat;
 	background-size: cover;
-	height: 550px;
+	height: 500px;
 }
 .banner .banner-desc h1 {
 	font-size: 48px;
@@ -21,6 +21,11 @@ body {
 	color: #f6dac6;
 	border-color: #f6dac6;
 	transition: 0.5s;
+}
+.cc-menu {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/fruits.png') center center fixed no-repeat;
+	background-size: cover;
+	height: 1200px;
 }
 
 .navbar {
@@ -60,4 +65,5 @@ body {
 li{
     list-style: none;
 }
+
 

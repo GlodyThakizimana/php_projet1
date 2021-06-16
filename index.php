@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -123,11 +124,79 @@
 				</div>
 			</div>
 		</section>
+		<section class="cc-menu merriweather py-5">
+			<div class="container">
+				<div class="row">
+					
+					<div class="card bg-transparent text-center mb-4">
+						<div class=" redressed fs-4">
+							<ul class="nav nav-tabs justify-content-center card-header-tabs">
+								<li class="nav-item">
+									<p class="nav-link active" >Tous Les Menus</p>
+								</li>
+								
+								
+			
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+				<div class="row row-cols-1 row-cols-md-2 g-4">
+					<div class="col">
+						<div class="card">
+							<img src="images/pizza_menu.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									This is a longer card with supporting text below as a natural lead-in to additional content. This
+									content is a little bit longer.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<img src="images/pizza_menu.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									This is a longer card with supporting text below as a natural lead-in to additional content. This
+									content is a little bit longer.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col d-sm-none d-md-block">
+						<div class="card">
+							<img src="images/pizza.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									This is a longer card with supporting text below as a natural lead-in to additional content.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col d-sm-none d-md-block">
+						<div class="card">
+							<img src="images/pizza.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									This is a longer card with supporting text below as a natural lead-in to additional content. This
+									content is a little bit longer.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
     
-
     
         </div>
-
     </section>
 
 

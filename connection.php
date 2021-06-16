@@ -1,4 +1,5 @@
-
+<?php session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php require('global_css_files.php'); ?>
     <link rel="stylesheet" href="CSS/formolaire.css">
-    <title>Connection</title>
+    <title>Dessert</title>
 </head>
 
 
@@ -42,7 +43,6 @@
         </div>
         </div>
     </form>
-
     </div>
     <?php
     require('Templates/footer.html');
