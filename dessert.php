@@ -14,12 +14,10 @@
 
 <body>
     <?php require 'Templates/header.php' ?>
-    <?php
-    if (!(isset($_SESSION['isConnected']) && $_SESSION['isConnected'])) {
-        echo "<p>vous devez vous connecter pour voir cette page</p>";
-        exit;
-    }
-    ?>
+    <?php if (isset($_SESSION['isConnected'])) :?>{
+       
+    
+    
     <section>
 
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -132,9 +130,15 @@
 
 
 
-    <?php
-    require('Templates/footer.html');
-    ?>
+    <?php require('Templates/footer.html')?>
+
+    <?php else: ?>
+    <section>
+     <p>Vous devez être connecté pour afficher cette page !</p>
+     <p>Vous pouvez vous connecter <a class="btn btn-success" href="/connection.php">ici</a></p>
+    </section>
+
+    <?php endif ?>
 </body>
 
 </html>
